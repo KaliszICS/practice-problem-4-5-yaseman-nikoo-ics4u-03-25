@@ -13,7 +13,7 @@ class Notes {
 		Cat cat2 = new Cat("kat", 12);
 		System.out.println(cat); // -> toString needs to be replaced
 		System.out.println(cat2);
-		// System.out.println(cat.getClass());
+		System.out.println(cat.getClass());
 		System.out.println(cat.equals(cat2)); //-> needs to be replaced
 		// System.out.println(cat.hashCode());
 		Cat cat3 = cat.clone(); //-> needs to be replace
